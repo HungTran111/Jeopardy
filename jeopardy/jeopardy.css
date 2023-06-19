@@ -1,0 +1,71 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(104, 237, 255, 0.579);
+}
+
+h1{
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+#game-board {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+table, th, td{
+  background-color: #5f95f8;
+  border: solid 3px rgb(0, 0, 0);
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+th{
+  text-transform: uppercase;
+}
+
+th, td{
+  height: 7rem;
+  width: 12rem;
+}
+
+p{
+  text-align: center;
+}
+
+p.questionMark{
+  font-size: 2rem;
+}
+
+p.clue{
+  font-size: 1.1rem;
+}
+
+p.answer{
+  font-size: 1.4rem;
+}
+
+#start-btn {
+  background-color: #69b0f7;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+
+
